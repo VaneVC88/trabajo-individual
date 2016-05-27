@@ -1,0 +1,232 @@
+*{
+  font-size: $font;
+}
+body{
+  margin: 0;
+}
+
+#home{
+  .fondo{
+    @include fondo (cover, -20px);
+    h1{
+      margin: 20vh auto;
+      font-family: $font;
+      padding: 60px 0;
+      color: white;
+      font-weight: bold;
+      
+    }
+    p{
+      margin-top: -180px;
+      margin-left: 100px;
+      font-family: $font;
+      width: 80%;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+    }
+}
+  .fondo-fixed{
+    @include fondo-fixed (fixed, no-repeat, center);
+   
+  }
+  .fondo-1 {
+    background-image: url(../images/back-lock.jpg);
+  }
+  .modulo-alto {
+    @include modulo-alto (1em, 100vh, center);
+  }
+}
+
+#txt-ind{
+  margin-top: 150px;
+  margin-bottom: 150px;
+  h1, h6, p, .iconooo{
+    margin-left: 80px;
+  }
+  h1{
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid $black;
+    margin-top: 40px;
+  }
+  #prrf{
+    margin-top: 70px;
+  }
+  h6{
+    font-size: 16px;
+    margin-top: 40px;
+    color: $title-grey;
+  }
+  p{
+    width: 70%;
+  }
+  .iconooo{
+    padding-top: 40px;
+    font-size: 50px;
+    color: $icon-color;
+  }
+}
+
+#my-title{
+  .fondo{
+    @include fondo (cover, -20px);
+  }
+  .fondo-2{
+    background-image: url(../images/bg3.jpg);
+  }
+  .fondo-fixed{
+    @include fondo-fixed (fixed, no-repeat, center);
+  }
+  .fondo-1 {
+    background-image: url(../images/back-lock.jpg);
+  }
+  .modulo-alto {
+    @include modulo-alto (1em, 100vh, center);
+  }
+  h1{
+    color: $white;
+    font-size: 30px;
+    margin-top: 170px;
+    text-align: left;
+    margin-left: 70px;
+  }
+  video{
+    margin-top: -100px;
+    margin-left: 30px;
+  }
+  p{
+    color: $white;
+    text-align: left;
+    width: 80%;
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+}
+
+#me-define{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: $black;
+  }
+  .member{
+    width: 100%;
+    &:hover{
+      opacity: 0.5;
+    }
+  }
+  h6, h5, p{
+    margin-left: 30px;
+  }
+  h6{
+    color: $black;
+    font-size: 15px;
+    margin-top: 45px;
+  }
+  h5{
+    color: $title-grey;
+    font-size: 13px;
+  }
+  p{
+    color: $text-grey;
+    font-size: 12px;
+    margin-top: 35px;
+    width: 70%;
+  }
+  i{
+    color: $red-social-color;
+    margin-left: 25px;
+    padding-left: 5px;
+  }
+  .no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+  }
+}
+#contact{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  h1{
+    font-size: 20px;
+    border-bottom: 1px solid $black;
+  }
+  .form-control{
+    margin-top: 20px;
+  }
+  button{
+    margin-top: 20px;
+    padding: 5px 40px;
+    background-color: $black;
+    border: 1px solid $black;
+    font-size: 18px;
+  }
+  p{
+    color: $letra-gris;
+    font-size: 14px;
+  }
+  h2{
+    color: $title-color;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 20px;
+  }
+  h3{
+    margin-left: 20px;
+    font-size: 15px;
+    color: $title-color;
+    font-weight: bold;
+    float: left;
+  }
+  ul{
+    margin-left: -165px;
+    margin-top: 55px;
+    list-style-type: none;
+    li{
+      font-size: 12px;
+      color: $letra-gris;
+    }
+  }
+  h5{
+    margin-left: 20px;
+    color: $letra-gris;
+    font-size: 12px;
+    span{
+      color: $title-color;
+      font-weight: bold;
+      font-size: 14px;
+    }
+  }
+  .r-s{
+    color: $icon-color;
+    position: relative;
+    left: 20px;
+    padding-left: 1px;
+
+  }
+  .panel-default{
+    border: 1px solid $white;
+  }
+  .panel-heading{
+    background-color: $white;
+    .abajo{
+      border: 1px solid $black;
+      background-color: $black;
+      padding: 0 5px;
+      color: $white;
+    }
+    a{
+      text-decoration: none;
+      color: $title-color;
+      font-weight: bold;
+      font-size: 15px;
+    }
+  }
+  .panel-body{
+    color: $letra-gris;
+    font-size: 12px;
+  }
+}

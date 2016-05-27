@@ -1,0 +1,15 @@
+@mixin fondo ($bc-size, $m-top){
+	background-size: $bc-size;
+	margin-top: $m-top;
+}
+@mixin fondo-fixed ($bc-attach, $bc-repeat, $bc-pos){
+	background-attachment: $bc-attach;
+	background-repeat: $bc-repeat;
+	background-position: $bc-pos;
+}
+@mixin modulo-alto ($pad, $min-h, $text-a){
+	padding: $pad;
+	min-height: $min-h;
+	text-align: $text-a;
+}
+/*@mixin iconooo ($color, )*/

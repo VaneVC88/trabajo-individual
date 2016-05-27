@@ -1,0 +1,23 @@
+.navbar-default{
+	border-bottom: 1px solid $white;
+	.logo{
+	width: 20%;
+	margin-top: 7px;
+	margin-left: 60px;
+	}
+	p{
+		float: right;
+		color: $letra-gris;
+		margin-top: 16px;
+		margin-left: -45px;
+		font-size: 15px;
+	}
+}
+	.navbar-nav{
+		margin-left: 500px;
+		a{
+			font-size: 12px;
+			color: $letra-gris;
+		}
+	}
+

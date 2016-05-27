@@ -1,0 +1,22 @@
+.bg-primary{
+	background-color: #F0F0F1;
+.logo{
+	width: 20%;
+	margin-top: 20px;
+	margin-left: 60px;
+	}
+	ul{
+		color: $text-grey;
+		margin-left: 120px;
+		margin-top: 20px;
+		list-style-type: none;
+		li{
+			font-size: 11px;
+		}
+	}
+	i{
+		color: $icon-color;
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+}
