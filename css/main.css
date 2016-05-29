@@ -1,4 +1,3 @@
-/*@mixin iconooo ($color, )*/
 .navbar-default {
   border-bottom: 1px solid #FFFFFF; }
   .navbar-default .logo {
@@ -7,7 +6,7 @@
     margin-left: 60px; }
   .navbar-default p {
     float: right;
-    color: #8D8184;
+    color: #635A58;
     margin-top: 16px;
     margin-left: -45px;
     font-size: 15px; }
@@ -16,7 +15,7 @@
   margin-left: 500px; }
   .navbar-nav a {
     font-size: 12px;
-    color: #8D8184; }
+    color: #635A58; }
 
 .bg-primary {
   background-color: #F0F0F1; }
@@ -84,11 +83,14 @@ body {
   #txt-ind #prrf {
     margin-top: 70px; }
   #txt-ind h6 {
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: bold;
     margin-top: 40px;
     color: #726866; }
   #txt-ind p {
-    width: 70%; }
+    width: 70%;
+    font-size: 13px;
+    color: #8E8EA1; }
   #txt-ind .iconooo {
     padding-top: 40px;
     font-size: 50px;
@@ -150,10 +152,12 @@ body {
     font-size: 12px;
     margin-top: 35px;
     width: 70%; }
-  #me-define i {
+  #me-define a {
     color: #9C9C9C;
-    margin-left: 25px;
-    padding-left: 5px; }
+    text-decoration: none; }
+    #me-define a i {
+      margin-left: 25px;
+      padding-left: 5px; }
   #me-define .no-gutter > [class*='col-'] {
     padding-right: 0;
     padding-left: 0; }
@@ -173,7 +177,7 @@ body {
     border: 1px solid #222222;
     font-size: 18px; }
   #contact p {
-    color: #8D8184;
+    color: #635A58;
     font-size: 14px; }
   #contact h2 {
     color: #666666;
@@ -192,20 +196,24 @@ body {
     list-style-type: none; }
     #contact ul li {
       font-size: 12px;
-      color: #8D8184; }
+      color: #635A58; }
   #contact h5 {
     margin-left: 20px;
-    color: #8D8184;
+    color: #635A58;
     font-size: 12px; }
     #contact h5 span {
       color: #666666;
       font-weight: bold;
       font-size: 14px; }
-  #contact .r-s {
+  #contact a {
     color: #969696;
-    position: relative;
-    left: 20px;
-    padding-left: 1px; }
+    text-decoration: none; }
+    #contact a .r-s {
+      margin-left: 20px;
+      padding-left: 1px; }
+  #contact .redes {
+    margin-left: 30px;
+    margin-right: -10px; }
   #contact .panel-default {
     border: 1px solid #FFFFFF; }
   #contact .panel-heading {
@@ -221,7 +229,7 @@ body {
       font-weight: bold;
       font-size: 15px; }
   #contact .panel-body {
-    color: #8D8184;
+    color: #8E8EA1;
     font-size: 12px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -55,12 +55,15 @@ body{
     margin-top: 70px;
   }
   h6{
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: bold;
     margin-top: 40px;
     color: $title-grey;
   }
   p{
     width: 70%;
+    font-size: 13px;
+    color: $text-grey;
   }
   .iconooo{
     padding-top: 40px;
@@ -137,10 +140,13 @@ body{
     margin-top: 35px;
     width: 70%;
   }
-  i{
+  a{
     color: $red-social-color;
+    text-decoration: none;
+    i{
     margin-left: 25px;
     padding-left: 5px;
+    }
   }
   .no-gutter > [class*='col-'] {
     padding-right:0;
@@ -165,7 +171,7 @@ body{
     font-size: 18px;
   }
   p{
-    color: $letra-gris;
+    color: $text-grey-1;
     font-size: 14px;
   }
   h2{
@@ -187,12 +193,12 @@ body{
     list-style-type: none;
     li{
       font-size: 12px;
-      color: $letra-gris;
+      color: $text-grey-1;
     }
   }
   h5{
     margin-left: 20px;
-    color: $letra-gris;
+    color: $text-grey-1;
     font-size: 12px;
     span{
       color: $title-color;
@@ -200,12 +206,17 @@ body{
       font-size: 14px;
     }
   }
-  .r-s{
+  a{
     color: $icon-color;
-    position: relative;
-    left: 20px;
-    padding-left: 1px;
-
+    text-decoration: none;  
+    .r-s{
+      margin-left: 20px;
+      padding-left: 1px;
+    }
+  }
+  .redes{
+    margin-left: 30px;
+    margin-right: -10px;
   }
   .panel-default{
     border: 1px solid $white;
@@ -226,7 +237,7 @@ body{
     }
   }
   .panel-body{
-    color: $letra-gris;
+    color: $text-grey;
     font-size: 12px;
   }
 }
